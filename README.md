@@ -1,6 +1,8 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/52a4e580-815e-459e-b478-6beb0c383264/deploy-status)](https://app.netlify.com/sites/nexter-react-project/deploys)
+
 # Nexter-Project
 
-This is a [Demo Project](https://trillo-react-project.netlify.app) made with [ Udemy Advance CSS and SCSS Course](https://github.com/jonasschmedtmann/advanced-css-course), converted to a React App.
+This is a [Demo Project](https://nexter-react-project.netlify.app) made with [ Udemy Advance CSS and SCSS Course](https://github.com/jonasschmedtmann/advanced-css-course), converted to a React App.
 
 ## Installation
 
