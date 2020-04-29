@@ -1,6 +1,7 @@
 import React from 'react';
 import STORY1 from '../../assets/img/story-1.jpeg';
 import STORY2 from '../../assets/img/story-2.jpeg';
+import Header from '../Header';
 import Home from '../Home';
 import Gallery from '../Gallery';
 
@@ -11,7 +12,7 @@ const Layout = () => {
         <button className="nav-btn" />
       </div>
 
-      <header className="header">Header</header>
+      <Header />
 
       <div className="realtors">Top 3 realtors</div>
 
