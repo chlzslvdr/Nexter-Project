@@ -189,19 +189,18 @@ const Layout = () => {
           <a
             href="https://github.com/chlzslvdr"
             target="_blank"
-            className="footer__link"
+            className="label__link"
             rel="noopener noreferrer"
           >
             Chelzea Salvador
           </a>{' '}
-          while learning an online course on
+          while learning an online course on{' '}
           <a
             href="https://github.com/jonasschmedtmann/advanced-css-course.git"
             target="_blank"
-            className="footer__link"
+            className="label__link"
             rel="noopener noreferrer"
           >
-            {' '}
             Advanced CSS and Sass
           </a>
         </p>

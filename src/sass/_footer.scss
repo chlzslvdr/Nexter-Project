@@ -45,9 +45,19 @@
   margin-top: 2.5rem;
   text-align: center;
 
-  a {
+  &__link:link,
+  &__link:visited {
+    display: inline-block;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+    transition: all 0.2s;
+    transform: scale(1);
+  }
+
+  &__link:link:hover,
+  &__link:visited:active {
+    background-color: $color-primary;
+    transform: rotate(5deg) scale(1.3);
   }
 }
