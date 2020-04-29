@@ -1,6 +1,7 @@
 import React from 'react';
 import STORY1 from '../../assets/img/story-1.jpeg';
 import STORY2 from '../../assets/img/story-2.jpeg';
+import Home from '../Home';
 
 const Layout = () => {
   return (
@@ -112,7 +113,7 @@ const Layout = () => {
         <button className="btn">Find your own home</button>
       </div>
 
-      <section className="homes">Homes</section>
+      <Home />
 
       <section className="gallery">Gallery</section>
 
