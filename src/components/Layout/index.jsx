@@ -118,7 +118,65 @@ const Layout = () => {
 
       <Gallery />
 
-      <footer className="footer">Footer</footer>
+      <footer className="footer">
+        <ul className="nav">
+          <li className="nav-item">
+            <a href="#" className="nav__link">
+              Find your dream home
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#" className="nav__link">
+              Request proposal
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#" className="nav__link">
+              Download home planner
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#" className="nav__link">
+              Contact us
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#" className="nav__link">
+              Submit your property
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#" className="nav__link">
+              Come work with us!
+            </a>
+          </li>
+        </ul>
+        <p className="copyright">
+          &copy; Copyright 2017 by Jonas Schmedtmann. Feel free to use this
+          project for your own purposes. This does NOT apply if you plan to
+          produce your own course or tutorials based on this project.
+        </p>
+        <p className="label">
+          {' '}
+          Built by{' '}
+          <a
+            href="https://github.com/chlzslvdr"
+            target="_blank"
+            className="footer__link"
+          >
+            Chelzea Salvador
+          </a>{' '}
+          while learning an online course on
+          <a
+            href="https://github.com/jonasschmedtmann/advanced-css-course.git"
+            target="_blank"
+            className="footer__link"
+          >
+            {' '}
+            Advanced CSS and Sass
+          </a>
+        </p>
+      </footer>
     </div>
   );
 };
