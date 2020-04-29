@@ -163,6 +163,7 @@ const Layout = () => {
             href="https://github.com/chlzslvdr"
             target="_blank"
             className="footer__link"
+            rel="noopener noreferrer"
           >
             Chelzea Salvador
           </a>{' '}
@@ -171,6 +172,7 @@ const Layout = () => {
             href="https://github.com/jonasschmedtmann/advanced-css-course.git"
             target="_blank"
             className="footer__link"
+            rel="noopener noreferrer"
           >
             {' '}
             Advanced CSS and Sass
