@@ -7,7 +7,9 @@ import Gallery from '../Gallery';
 const Layout = () => {
   return (
     <div className="container">
-      <div className="sidebar">Sidebar</div>
+      <div className="sidebar">
+        <button className="nav-btn" />
+      </div>
 
       <header className="header">Header</header>
 
