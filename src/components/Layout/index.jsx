@@ -1,6 +1,9 @@
 import React from 'react';
 import STORY1 from '../../assets/img/story-1.jpeg';
 import STORY2 from '../../assets/img/story-2.jpeg';
+import REALTOR1 from '../../assets/img/realtor-1.jpeg';
+import REALTOR2 from '../../assets/img/realtor-2.jpeg';
+import REALTOR3 from '../../assets/img/realtor-3.jpeg';
 import Header from '../Header';
 import Home from '../Home';
 import Gallery from '../Gallery';
@@ -14,7 +17,28 @@ const Layout = () => {
 
       <Header />
 
-      <div className="realtors">Top 3 realtors</div>
+      <div className="realtors">
+        <h3 className="heading-3">Top 3 Realtors</h3>
+        <div className="realtors__list">
+          <img src={REALTOR1} alt="Realtor 1" className="realtors__img" />
+          <div className="realtors__details">
+            <h4 className="heading-4 heading-4--light">Edward Palmer</h4>
+            <p className="realtors__sold">312 houses sold</p>
+          </div>
+
+          <img src={REALTOR2} alt="Realtor 2" className="realtors__img" />
+          <div className="realtors__details">
+            <h4 className="heading-4 heading-4--light">Sarah Hamilton</h4>
+            <p className="realtors__sold">256 houses sold</p>
+          </div>
+
+          <img src={REALTOR3} alt="Realtor 3" className="realtors__img" />
+          <div className="realtors__details">
+            <h4 className="heading-4 heading-4--light">Toby Ramsey</h4>
+            <p className="realtors__sold">180 houses sold</p>
+          </div>
+        </div>
+      </div>
 
       <section className="features">
         {/* .feature{feature $}*6 */}
