@@ -2,6 +2,7 @@ import React from 'react';
 import STORY1 from '../../assets/img/story-1.jpeg';
 import STORY2 from '../../assets/img/story-2.jpeg';
 import Home from '../Home';
+import Gallery from '../Gallery';
 
 const Layout = () => {
   return (
@@ -115,7 +116,7 @@ const Layout = () => {
 
       <Home />
 
-      <section className="gallery">Gallery</section>
+      <Gallery />
 
       <footer className="footer">Footer</footer>
     </div>
